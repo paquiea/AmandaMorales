@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace FIXED;
     /*color: #fff;*/
 }
 /* ESTILOS GLOBALES */
@@ -10,20 +10,20 @@ a{
 }
 /* ESTILOS HEADER */
 header{
-    height: 60px;
+    height: 100px;
     width: 100%;
-    background-color: #d66262;
+    background-color: #FFC300;
     display: flex;
     align-items: center;
     justify-content: center;
     position: fixed;
-    z-index: 2000;    /* hace que las cosas queden encima */
+    z-index: 2000;    /* hace que las cosas NO SE queden encima */
 }
 .main-title{
     font-size: 25px;
     font-weight: bold;
 }
-.main-container{
+.main-container{ 
     max-width: 1200px;
     width: 90%;
     height: inherit;
@@ -47,11 +47,11 @@ header .main-container nav ul li{
     display: inline;
 }
 header .main-container nav ul li a{
-    color: #fff;
-    padding: 0 19px;
+    color: #DA6;
+    padding: 20 19px;
 }
 header .main-container nav ul li a:hover{
-    color: rgb(136, 17, 17);
+    color: rgb(218, 247, 166);
     font-weight: bold;
     font-size: 18px;
 }
@@ -63,7 +63,7 @@ header .main-container nav ul li a:hover{
     align-items: center;
 }
 .logo-container a{
-    color: #fff;
+    color: #ABC;
     font-size: 20px;
 }
 /* ESTILOS HEADER */
@@ -98,7 +98,7 @@ section#inicio .img-cover{
     align-items: flex-start;
 }
 #inicio .txt-container .btn{
-    padding: 0 19px;
+    padding: 20 19px;
     margin: 20px 0px;
 }
 #inicio .txt-container .btn a{
@@ -219,7 +219,7 @@ section#inicio .img-cover{
     margin-top: 5%;
 }
 #contactame form input, #contactame form textarea{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier;
     font-size: 16px;
     display: block;
     padding: 10px;
